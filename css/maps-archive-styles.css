@@ -61,18 +61,18 @@ body {
 /* Grid for containment structures: */
 .container {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(9, 1fr);
   grid-gap: 1.25rem;
 	margin: 0 auto;
 	width: 100vw;
 	max-width: 70%;
 }
 header {
-  grid-column-end: span 10;
+  grid-column-end: span 9;
 	border-bottom: 2px #1c1c1c solid;
 }
 .map-image {
-  grid-column-end: span 5;
+  grid-column-end: span 3;
 }
 .map-info {
   background-color: #d9d9d9;
