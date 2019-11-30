@@ -56,7 +56,7 @@ body {
   font-weight: 700;
 	color: #1c1c1c;
 	margin: 0;
-	text-align: center;
+	text-align: left;
 }
 /* Grid for containment structures: */
 .container {
@@ -68,11 +68,16 @@ body {
 	max-width: 80%;
 }
 header {
-  grid-column-end: span 8;
-	border-bottom: 1px #ececec solid;
+  grid-column-end: span 10;
+	border-bottom: 2px #1c1c1c solid;
 }
 .map-image {
   grid-column-end: span 5;
+}
+.map-info {
+  background-color: #d9d9d9;
+  margin: auto;
+  padding: 1rem;
 }
 img {
   max-width: 100%;
@@ -81,24 +86,28 @@ img {
 }
 h1 {
 	font-size: 4rem;
-  text-align: left;
   grid-column-end: span 5;
   line-height: 4.4rem;
   letter-spacing: -0.15rem;
+  margin-bottom: 1rem;
 }
 h2, h3 {
 	margin: 1.5vw, auto;
 }
 h2 {
 	font-size: 1.3rem;
-  text-align: left;
+  font-weight: 400;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px #1c1c1c solid;
+}
+h3 {
+  font-size: 2rem;
 }
 p {
   font-size: 1.4rem;
   font-weight: 400;
-  color: #959595;
-  line-height: 2.4rem;
-  margin: 1.5vw auto;
+  color: #1c1c1c;
+  line-height: 2rem;
   -webkit-hyphens: auto;
   hyphens: auto;
 }
@@ -117,8 +126,8 @@ footer a.active {
   text-indent: -0.7rem;
 }
 ::selection {
-	background: #ffffff;
-	color: #292929;
+	background: #1c1c1c;
+	color: #c8c8c8;
 }
 
 /* Animation Graphics */
