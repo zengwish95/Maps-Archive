@@ -64,8 +64,8 @@ body {
   grid-template-columns: repeat(10, 1fr);
   grid-gap: 2rem;
 	margin: 0 auto;
-	width: 100vw;
-	max-width: 70%;
+	width: 80vw;
+  max-width: 55%;
 }
 header, footer {
   grid-column-end: span 10;
@@ -139,6 +139,8 @@ a {
   }
   .container {
     grid-gap: 1.5rem;
+    max-width: 65%;
+    width: 80vw;
   }
 }
 /* M screen size */
@@ -168,6 +170,12 @@ a {
 }
 /* S screen size */
 @media screen and (max-width: 699px) {
+  .container {
+    max-width: 100%;
+    min-width: 250px;
+    width: 100vw;
+    height: auto;
+  }
   h1 {
     font-size: 3rem;
     grid-column-end: span 10;
@@ -179,13 +187,9 @@ a {
     line-height: 1.5rem;
     margin: 6vw auto;
   }
-	.container {
-		max-width: 100%;
-		min-width: 250px;
-    height: auto;
-	}
   .map-image {
     grid-column-end: span 10;
+    margin-bottom: 1.5rem;
   }
   .caption {
     font-size: 0.65rem;
