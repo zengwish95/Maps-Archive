@@ -137,15 +137,15 @@ a {
   .map-image {
     grid-column-end: span 5;
   }
+  .container {
+    grid-gap: 1.5rem;
+  }
 }
 /* M screen size */
 @media screen and (max-width: 1079px) {
 	html {
 		font-size: 16px;
 	}
-  .nav a {
-    font-size: 0.8rem;
-  }
   h1 {
     font-size: 3rem;
     line-height: 2.5rem;
@@ -154,10 +154,6 @@ a {
     font-size: 0.8rem;
     line-height: 1.5rem;
     margin: 3vw auto;
-  }
-  footer {
-    margin-top: 15vh;
-    height: 7vw;
   }
 	.container, {
 		max-width: 70%;
@@ -177,9 +173,6 @@ a {
     grid-column-end: span 10;
     line-height: 2.5rem;
     padding-left: 1rem;
-  }
-  h4 {
-    font-size: 1.5rem;
   }
   p {
     font-size: 0.8rem;
